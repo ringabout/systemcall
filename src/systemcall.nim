@@ -1,4 +1,4 @@
-import syscall/types
+import systemcall/types
 export types
 
 
