@@ -10,5 +10,5 @@ import unittest
 import syscall
 
 
-let message = "Hello, world!"
+let message = "Hello, world!\n"
 discard syscall(NR_write, 1, cast[clong](message.cstring), message.len)
